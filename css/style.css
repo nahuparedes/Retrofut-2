@@ -69,7 +69,6 @@ padding: 10px;
 
 }
 
-
 a{
     color:rgb(143, 231, 0);
 }
@@ -92,7 +91,6 @@ margin: 0px;
 
 }  
 
-  
 .imgdestacado{
     display: inline-block;
     padding: 10px;
@@ -101,46 +99,39 @@ margin: 0px;
 height:200px;
 }
 /* nuestra categoria */
-.item1, .item2, .item3, .item4{
-    background-color: rgb(2, 82, 55);
-    /* display: grid; */
-    width: 400px;
-    height: 600px;
-   display:inline-block ;
-    margin: 120px;
-    background-position: center;
-    background-image:url(../imagenes/milan\ champions.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 90px;
-    color: rgb(0, 0, 0);
-    text-align: center;
- } 
- .item2{
-   background-image: url(../imagenes/camisetas\ liga.webp);
-   
- }
- .item3{
-    background-image: url(../imagenes/libertadores.jpg);
- }
- .item4{
-    background-image: url(../imagenes/camisetas-mundla.webp);
- }
-     
+
 /* nuestra categoria */
-div.nuestracategoria{
+section.nuestracategoria{
 background-color: rgb(179, 156, 27);
 font-size: 60px;
+margin:10px;
+justify-content: space-around;
+justify-content: center;
 }
-
-h3.categorias{
-    font-size: 90px;
-}
-   .mundial{
-    width: 350px;
-    height: 500px;
+row{
     
-   } 
+    /* width: 100%;
+    height: 700px; */
+    display: flex;
+gap: 20px;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+justify-content: space-around;
+
+}
+ div.pru{
+    /* background-color: blue; */
+    height: 300px;
+    width: 400px;
+     /* border: 3px crimson solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+h3.categorias{
+    font-size: 100px;
+}
+}
 
 /* medias.index */
 nav.media1{
@@ -202,8 +193,6 @@ nav.media1{
     margin: 50px;
     margin-left: 70px;
  */
-   
-
 
 h2{
     color: azure;
@@ -222,70 +211,21 @@ h2{
    color: rgb(151, 151, 151);
    padding-left: 3%;
    }
-   
-    
-   
-    
-
 /* media queries */
 @media screen and (max-width: 600px){
     .barranavegacion ul li{
        /*  display: none; */
-        flex-direction: column;
-        
-        
-        
-       
-    }
+        flex-direction: column; }
 }
-   
-   
 
 
-    
-    
-    
-    
-/* }
- } */
  /* prueba */
- /* section.prueba{
-    background: chartreuse;
-    height: 600px;
-    
- }
- .pp{
-    background-color: aqua;
-    height: 100px;
-   grid-row: 3; border-style: dotted;
-   grid-column: auto; border-style: double;
-   display: grid; flex-grow: 3px;
-     */
+ 
+
+
+
 
    
-/*  } */
-.mundial2{
-   background-color: brown;
-   height: 500px;
-   width: 400px;
-   background-image: url(../imagenes/arg\ campeon.jpg);
-  background: center;
-   background-repeat: no-repeat;
-    background-size: cover;
     
-   }
-  .hol{
-    display: grid;
-    grid-template-columns: auto;
-  }
-   .hol{
-    background-color: blueviolet;
-    background-image: url(../imagenes/camiseta\ escocia.png);
-    
-    height:20em;
-    width: 20em;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
+   
    
