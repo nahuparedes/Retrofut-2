@@ -12,7 +12,7 @@ body{
     background-color:rgb(166, 171, 182);
 }
 h1{
-    margin: 1,5em;
+    margin: 10px;
     color: rgb(238, 228, 228);
 font-weight: 100%;
 font-size: 4em;
@@ -221,7 +221,11 @@ h2{
 
  /* prueba */
  
-
+.hola{
+   
+    height: 200px;
+    width: 200px;
+}
 
 
 
