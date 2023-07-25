@@ -1,0 +1,11 @@
+@mixin titulos($tamanio){
+h1{
+font-size: $tamanio;
+}
+h2{
+    font-size: $tamanio + 0.8;
+}
+h3{
+    font-size: $tamanio - 0.2;
+}
+}
