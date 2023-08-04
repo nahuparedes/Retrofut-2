@@ -64,7 +64,7 @@ section.nuestracategoria{
     footer{
         background-color: black;
     }
-section.foot{
+.foot{
     background-color: rgb(0, 0, 0);
     height: 100%;
     display: flex;
@@ -73,15 +73,19 @@ section.foot{
    flex-shrink: inherit;
    font-size: $fontsizechica;
    border-radius: 6px;
-   color: rgb(151, 151, 151);
+   color: rgb(122, 113, 113);
    padding-left: 3%;
+   p{
+    color: rgb(97, 95, 95);
+   }
   
    a{
-    color:rgb(143, 231, 0);
+    color:rgb(138, 216, 21);
     text-decoration: none;
 
 }
 }
+
 #checkbox-menu, label.menu{
     display: none;
     /*  */

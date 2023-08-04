@@ -25,3 +25,16 @@ $card-color:                        null;
 $card-bg:                           var(--#{$prefix}body-bg);
 $card-img-overlay-padding:          $spacer;
 $card-group-margin:                 $grid-gutter-width * .5;
+/* breakpoints */
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+/* grid boos */
+$grid-columns:      12;
+$grid-gutter-width: 1.5rem;
+$grid-row-columns:  6;
