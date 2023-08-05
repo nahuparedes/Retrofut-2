@@ -24,8 +24,9 @@ h1{
     height:15%;
     margin: 0px;
     position: sticky;
+ } 
     /*  */
-}
+
 /* envio */
 div.envio{
     font-size: 25px;
@@ -37,6 +38,7 @@ div.envio{
     margin: 0px;
     
 }  
+/*  */
 section.nuestracategoria{
     background-color: rgb(179, 156, 27);
     font-size: $fontsizegrande;
@@ -85,7 +87,7 @@ section.nuestracategoria{
 
 }
 }
-
+/*  */
 #checkbox-menu, label.menu{
     display: none;
     /*  */
