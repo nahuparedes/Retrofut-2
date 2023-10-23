@@ -1,31 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../bootstrap.css"> 
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="venta de ropa deportiva de las mejores selecciones del mundo">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="../imagenes/retrofut.ico.ico">
+  <link rel="stylesheet" href="../bootstrap.css">
+  <link rel="stylesheet" href="../scss/style.css">
+  <title>Document</title>
 </head>
+
 <body>
-  <h1>hola</h1>
-  <form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-    <script src="/scripts/mocks/prendas.js"></script>
-    <script src="/scripts/main.js"></script>
-  <script src="/scripts/stock.js"></script>
+  <h1>Retrofut</h1>
+  <main>
+
+    <section class="form-container">
+      <h2>Comunicate con nosotros</h2>
+      <form role="search" id="form-contacto">
+
+        <div id="prenda" class="form-gruop">
+          <label for="formGroupExampleInput">
+            <h3>PRENDA</h3>
+          </label>
+          <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Indique la prenda">
+        </div>
+
+        </div>
+        <div class="form-box">
+          <label for="marca">
+            <h3>MARCA</h3>
+          </label>
+          <select id="marca" class="form-select" required>
+            <option value="null">Seleccione marca</option>
+            <option value="1">Adidas</option>
+            <option value="2">Nike</option>
+            <option value="3">Puma</option>
+            <option value="4">Kappa</option>
+            <option value="5">Lyon</option>
+            <option value="6">Marathon</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput">
+            <h3>COLOR</h3>
+          </label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Indique el color">
+        </div>
+        <div class="form-box">
+          <label for="mensaje">
+            <h3>TALLE</h3>
+          </label>
+          <select id="talle" class="form-select" required>
+            <option value="null">Seleccione talle</option>
+            <option value="1">XS</option>
+            <option value="2">S</option>
+            <option value="3">M</option>
+            <option value="4">L</option>
+            <option value="5">XL</option>
+            <option value="6">XXL</option>
+          </select>
+        </div>
+
+        <div class="form-box">
+          <label for="calidad">
+            <h3>CALIDAD</h3>
+          </label>
+          <select id="caliad" class="form-select" required>
+            <option value="null">Seleccione calidad</option>
+            <option value="1">premium</option>
+            <option value="2">semi-premium</option>
+          </select>
+        </div>
+
+        <div class="form-box">
+          <button class="btn" id="enviar" type="submit">
+            <h4>Enviar </h4>
+
+          </button>
+          <hr>
+      </form>
+
+  </main>
+  <!-- foot flexbox -->
+  <footer>
+    <section class="foot">
+      <div class="youtube">
+        <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i>retro.fut</a>
+      </div>
+      <div class="insta">
+        <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i>retrofut.insta</a>
+      </div>
+      <div class="email">
+        <a href="https://workspace.google.com/"><i class='bx bx-envelope'></i>ungmail@hotmail.com</a>
+      </div>
+      <div class="ubicacion">
+        <a
+          href="https://www.google.com/maps/place/Av.+Callao,+Buenos+Aires/@-34.598038,-58.3956957,17z/data=!3m1!4b1!4m6!3m5!1s0x95bccabf2541f637:0xd7183e359e23070!8m2!3d-34.5980424!4d-58.3931261!16s%2Fm%2F05s_9rg?hl=es&entry=ttu"><i
+            class='bx bx-map'></i>Avenida Callao, Capital Federal</a>
+      </div>
+      <div class="descripcion">
+        <h2>Sobre nosotros</h2>
+        <p class="somos">Somos una empresa que dedica a la venta de indumentaria deportiva retro y actual, prendas que
+          solamente conseguis acá. Nunca dejemos morir las joyas que nos regalo el fútbol</p>
+      </div>
+    </section>
+  </footer>
+
+  <script src="../scripts/mocks/prendas.js"></script>
+  <script src="../scripts/main.js"></script>
+  <script src="../scripts/stock.js"></script>
 </body>
+
 </html>

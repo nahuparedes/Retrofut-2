@@ -8,7 +8,7 @@
 @include titulos (0.rem);
 body{
     font-family: 'Teko', sans-serif;
-    background-color:hsl(221, 10%, 68%);
+    background-color:hsl(125, 91%, 21%);
 }
 /* titulo */
 h1{
@@ -110,6 +110,8 @@ section.nuestracategoria{
     @extend .btn;
     background-color: green;
     color: bisque;
+    border-bottom: 2px;
+    height: 20px;
 }
 .botom{
     font-size: 10px;
@@ -117,3 +119,7 @@ section.nuestracategoria{
 /*  */
 /* categoria */
 
+.btnred{
+    background-color: red;
+    border-radius: 2px;
+}
