@@ -22,21 +22,20 @@
 
     <section class="form-container">
       <h2>Comunicate con nosotros</h2>
-      <form role="search" id="form-contacto">
+      <form role="search" id="contacto">
 
-        <div id="prenda" class="form-gruop">
-          <label for="formGroupExampleInput">
+         <div id="prenda" class="form-grup"> 
+          <label for="prendas"></label>
             <h3>PRENDA</h3>
-          </label>
-          <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Indique la prenda">
-        </div>
+          <input type="text" class="form-control" name="prendas" id="prendas" placeholder="Indique la prenda">
+         </div>
 
-        </div>
+        
         <div class="form-box">
           <label for="marca">
             <h3>MARCA</h3>
           </label>
-          <select id="marca" class="form-select" required>
+          <select id="marca" name="marca" class="form-select" required>
             <option value="null">Seleccione marca</option>
             <option value="1">Adidas</option>
             <option value="2">Nike</option>
@@ -47,13 +46,13 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="formGroupExampleInput">
+          <label for="color">
             <h3>COLOR</h3>
           </label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Indique el color">
+          <input type="text" id="color"  class="form-control" name="color" placeholder="Indique el color">
         </div>
         <div class="form-box">
-          <label for="mensaje">
+          <label for="talle" >
             <h3>TALLE</h3>
           </label>
           <select id="talle" class="form-select" required>
@@ -71,7 +70,7 @@
           <label for="calidad">
             <h3>CALIDAD</h3>
           </label>
-          <select id="caliad" class="form-select" required>
+          <select id="calidad" name="calidad" class="form-select" required>
             <option value="null">Seleccione calidad</option>
             <option value="1">premium</option>
             <option value="2">semi-premium</option>
@@ -85,7 +84,7 @@
           </button>
           <hr>
       </form>
-
+<section></section>
   </main>
   <!-- foot flexbox -->
   <footer>
