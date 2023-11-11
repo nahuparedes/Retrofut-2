@@ -31,13 +31,13 @@ function registrarFormulario() {
   localStorage.setItem('talle', JSON.stringify(talle));
   localStorage.setItem('calidad', JSON.stringify(calidad));
 
- if (prendaValor === "") {
+  if (prendaValor === "") {
     Swal.fire({
       position: 'top-end',
       icon: 'error',
       title: 'Debes completar la prenda ',
-      showConfirmButton: false, 
-      timer: 1500 
+      showConfirmButton: false,
+      timer: 1500
 
     })
   }
@@ -48,7 +48,11 @@ function registrarFormulario() {
       text: 'No agregaste la prenda',
 
     })
-    
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'No agregaste el color ',
+    })
   }
 }
 /* promesas */
