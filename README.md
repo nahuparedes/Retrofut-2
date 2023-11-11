@@ -1,8 +1,8 @@
 
 #Retrofut
 
-Somos una empresa que comercializa indumentaria deportiva retro y de la actualidad. nuestro publico no tiene edad, para que las joyas del futbol jamas dejen de existir.
-
+      
+SOMOS UNA ERMPRESA QUE COMERCIALIZA INDUMENTARIA DEPORTIVA RETRO YDE LA ACTUALIDAD. NUESTRO PUBLICO ES DE CUALQUIER EDAD, PARA QUE LA JOYAS DEL FUTBOL JAMAS DEJEN DE EXISTIR.
 
 ## Acknowledgements
 
@@ -42,10 +42,17 @@ Takes two numbers and returns the sum.
 
 - [@nahuparedes](https://github.com/nahuparedes/Retrofut-2)
 
+## Technologies
+
+Bootstrap  4.5
+Sweet alert 2
+
 
 ## Badges
 
 Add badges from somewhere like: [shields.io](https://shields.io/)
+[bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+[sweetlaert](https://sweetalert2.github.io/)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
@@ -55,21 +62,18 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Example Color green| ![#034d09](https://via.placeholder.com/10/0a192f?text=+) #034d09 |
-| Example Color | ![#a6abb6](https://via.placeholder.com/10/f8f8f8?text=+)#a6abb6 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+|  Color green| ![#034d09](https://via.placeholder.com/10/0a192f?text=+) #034d09 |
+
 
 
 ## Contributing
 
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
+Me complace presentarles el Código de Conducta Global de Retrofut. El Código define cómo hacemos negocios de la manera correcta, sostenidos por
+nuestra sólida cultura ética. Uno de los comportamientos clave de Retrofut es Actuar con integridad en todo lo que hacemos.
+Esto se debe al el gran stock permanente y la diversidad de la nuestra. Es fundamental para mantener nuestra reputación con las 
+partes interesadas, garantizar la igualdad de oportunidades de empleo, mejorar la ventaja competitiva e impulsar el crecimiento a largo plazo.
 
 
 ## Appendix
 
-
+ESTE SITIO ESTA DISEÑADO PARA PODER ENCONTRAR LAS PRENDAS DEPORTIVAS QUE SIEMPRE DESEASTES Y NUNCA LAS ENCONTRASTE, ADEMAS, DESDE TU CASA Y A CUALQUIER HORA PODER REALIZAR TU COMPRA. DENTRO DE LAS 36 HS HABILESC LLEGARA TU PRODUCTO Y ACUERDATE, LAS JOYAS DEL FUTBOL ESTAN AQUI Y JAMAS DEJARAN DE EXISTIR.

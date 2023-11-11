@@ -24,11 +24,11 @@
       <h2>Comunicate con nosotros</h2>
       <form role="search" id="form-contacto">
 
-        <div id="prenda" class="form-gruop">
-          <label for="formGroupExampleInput">
+        <div class="form-box">
+          <label for="prenda">
             <h3>PRENDA</h3>
           </label>
-          <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Indique la prenda">
+          <input type="text" class="form-control" id="prenda" placeholder="Indique la prenda">
         </div>
 
         </div>
@@ -37,33 +37,33 @@
             <h3>MARCA</h3>
           </label>
           <select id="marca" class="form-select" required>
-            <option value="null">Seleccione marca</option>
-            <option value="1">Adidas</option>
-            <option value="2">Nike</option>
-            <option value="3">Puma</option>
-            <option value="4">Kappa</option>
-            <option value="5">Lyon</option>
-            <option value="6">Marathon</option>
+            <option value="">Seleccione marca</option>
+            <option value="Adidas">Adidas</option>
+            <option value="Nike">Nike</option>
+            <option value="Puma">Puma</option>
+            <option value="Kappa">Kappa</option>
+            <option value="Lyon">Lyon</option>
+            <option value="Marathon">Marathon</option>
           </select>
         </div>
-        <div class="form-group">
-          <label for="formGroupExampleInput">
+        <div class="form-box">
+          <label for="color">
             <h3>COLOR</h3>
           </label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Indique el color">
+          <input type="text" class="form-control" id="color" placeholder="Indique el color">
         </div>
         <div class="form-box">
-          <label for="mensaje">
+          <label for="talle">
             <h3>TALLE</h3>
           </label>
           <select id="talle" class="form-select" required>
-            <option value="null">Seleccione talle</option>
-            <option value="1">XS</option>
-            <option value="2">S</option>
-            <option value="3">M</option>
-            <option value="4">L</option>
-            <option value="5">XL</option>
-            <option value="6">XXL</option>
+            <option value="">Seleccione talle</option>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
           </select>
         </div>
 
@@ -71,17 +71,16 @@
           <label for="calidad">
             <h3>CALIDAD</h3>
           </label>
-          <select id="caliad" class="form-select" required>
-            <option value="null">Seleccione calidad</option>
-            <option value="1">premium</option>
-            <option value="2">semi-premium</option>
+          <select id="calidad" class="form-select" required>
+            <option value="">Seleccione calidad</option>
+            <option value="Premium">Premium</option>
+            <option value="Semi-premium">Semi-premium</option>
           </select>
         </div>
 
         <div class="form-box">
           <button class="btn" id="enviar" type="submit">
             <h4>Enviar </h4>
-
           </button>
           <hr>
       </form>
@@ -111,8 +110,8 @@
       </div>
     </section>
   </footer>
-
-  <script src="../scripts/mocks/prendas.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="../mocks/prendas.js"></script>
   <script src="../scripts/main.js"></script>
   <script src="../scripts/stock.js"></script>
 </body>

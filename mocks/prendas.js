@@ -1,4 +1,4 @@
-/* let prendasMock = [
+let prendasMock = [
     {
         nombrePrenda: "camiseta de argentina",
         marca: "adidas",
@@ -83,4 +83,4 @@
         talles: "m,xl",
         calidad: "premium",
     }
-]; */
+];
