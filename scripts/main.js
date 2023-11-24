@@ -67,24 +67,24 @@ const pedirProductos = () => {
     }, 3000);
   })
 };
- /* const pedirProductosNo = () => {
+ const pedirProductosNo = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       reject("no se encontraron los resultados");
     }, 3000);
   })
-}; */
+};
 let detallados = [];
 pedirProductos().then((res) => {
   detallados= res;
 console.table (detallados)
 })
 
- 
 
- fetch("/mocks/prendas.json")
-.then((res)=>res.json())
-.then((data)=>{
-  console.table(data)
-})
+
+fetch("/mocks/prendas.json")
+  .then((res) => res.json())
+  .then((data) => {
+
+  })
 
