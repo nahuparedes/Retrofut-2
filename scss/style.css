@@ -12,7 +12,11 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+h2, h4{
+  margin: 20px;
+   
 
+}
 /* variables */
 @im @include titulos (0.rem);
 body {
