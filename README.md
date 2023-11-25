@@ -11,31 +11,7 @@ SOMOS UNA ERMPRESA QUE COMERCIALIZA INDUMENTARIA DEPORTIVA RETRO YDE LA ACTUALID
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
-## API Reference
 
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
 
 
 ## Authors
@@ -48,15 +24,6 @@ Bootstrap  4.5
 Sweet alert 2
 
 
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
-[bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-[sweetlaert](https://sweetalert2.github.io/)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 ## Color Reference
 
@@ -76,4 +43,18 @@ partes interesadas, garantizar la igualdad de oportunidades de empleo, mejorar l
 
 ## Appendix
 
-ESTA PAGINA (STOCK.HTML)ESTA DISEÑADA PARA LA GENTE ENCARGADA DE LA LOGISTICA DE LA EMPRESA, YA QUE ESTA CARGA LOS DATOS DE LAS PRENDAS SOLICITADAS PARA LOS PROVEEDORES Y LOS GUARDA EN EL STORAGE. 
+ESTA PAGINA (STOCK.HTML)ESTA DISEÑADA PARA LA GENTE ENCARGADA DE LA LOGISTICA DE LA EMPRESA, YA QUE ESTA CARGA LOS DATOS DE LAS PRENDAS SOLICITADAS PARA LOS PROVEEDORES Y LOS GUARDA EN EL STORAGE. SU USO SERIA, COMPLETAS LOS DATOS SOLICITADOS DE LAS CUALIDADES DE LAS PRENDAS ESPECIFICANDO (COLOR, TALLE, CALIDAD, Y MARCA) LUEGO DE COMPLETAR ESTO, TOCAMOS EL BOTON "ENVIAR" Y SU PEDIDO YA ESTARA LISTO
+
+## Feedback
+
+Este proyecto es un simulacro de pedidos de stock de la empresa 
+
+
+## Used By
+
+Este proyecto puede ser usado por los responsables del sector de compras, y encargados de la contabilidad.
+
+
+
+
+

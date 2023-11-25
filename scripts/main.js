@@ -50,13 +50,8 @@ function registrarFormulario() {
       text: 'No agregaste la prenda',
 
     })
-    Swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      text: 'No agregaste el color ',
-    })
   }
-}
+    
 
 
 /* promesas */
@@ -87,4 +82,4 @@ fetch("/mocks/prendas.json")
   .then((data) => {
 
   })
-
+} 
