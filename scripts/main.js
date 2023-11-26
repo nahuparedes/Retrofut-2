@@ -11,8 +11,16 @@ let calidad = [];
 
 let submit = document.getElementById("enviar");
 submit.addEventListener('click', registrarFormulario)
-
-
+if ( submit !== "") {
+   
+     Swal.fire({
+      icon: 'success',
+      title: 'felicitaciones',
+      text: 'agregaste una prenda al stock',
+      showConfirmButton: false,
+      timer: 1500
+    }) 
+}
 
 function registrarFormulario() {
   let prendaValor = document.getElementById("prenda").value;
@@ -20,7 +28,7 @@ function registrarFormulario() {
   let colorValor = document.getElementById("color").value;
   let talleValor = document.getElementById("talle").value;
   let calidadValor = document.getElementById("calidad").value;
- 
+
   prenda.push(prendaValor);
   marca.push(marcaValor);
   color.push(colorValor);
@@ -32,7 +40,10 @@ function registrarFormulario() {
   localStorage.setItem('color', JSON.stringify(color));
   localStorage.setItem('talle', JSON.stringify(talle));
   localStorage.setItem('calidad', JSON.stringify(calidad));
-
+  
+  
+  
+  
   if (prendaValor === "") {
     Swal.fire({
       position: 'top-end',
@@ -48,38 +59,40 @@ function registrarFormulario() {
       icon: 'error',
       title: 'Oops...',
       text: 'No agregaste la prenda',
+      showConfirmButton: false,
+      timer: 1500
 
     })
   }
-    
 
 
-/* promesas */
-const pedirProductos = () => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(prendasMock);
-    }, 3000);
+
+  /* promesas */
+  const pedirProductos = () => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(prendasMock);
+      }, 3000);
+    })
+  };
+  const pedirProductosNo = () => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        reject("no se encontraron los resultados");
+      }, 3000);
+    })
+  };
+  let detallados = [];
+  pedirProductos().then((res) => {
+    detallados = res;
+    console.table(detallados)
   })
-};
- const pedirProductosNo = () => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      reject("no se encontraron los resultados");
-    }, 3000);
-  })
-};
-let detallados = [];
-pedirProductos().then((res) => {
-  detallados= res;
-console.table (detallados)
-})
 
 
 
-fetch("/mocks/prendas.json")
-  .then((res) => res.json())
-  .then((data) => {
+  fetch("/mocks/prendas.json")
+    .then((res) => res.json())
+    .then((data) => {
 
-  })
+    })
 } 
