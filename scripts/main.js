@@ -11,15 +11,15 @@ let calidad = [];
 
 let submit = document.getElementById("enviar");
 submit.addEventListener('click', registrarFormulario)
-if ( submit !== "") {
-   
-     Swal.fire({
-      icon: 'success',
-      title: 'felicitaciones',
-      text: 'agregaste una prenda al stock',
-      showConfirmButton: false,
-      timer: 1500
-    }) 
+if (submit !== "") {
+
+  Swal.fire({
+    icon: 'success',
+    title: 'felicitaciones',
+    text: 'agregaste una prenda al stock',
+    showConfirmButton: false,
+    timer: 1500
+  })
 }
 
 function registrarFormulario() {
@@ -40,33 +40,24 @@ function registrarFormulario() {
   localStorage.setItem('color', JSON.stringify(color));
   localStorage.setItem('talle', JSON.stringify(talle));
   localStorage.setItem('calidad', JSON.stringify(calidad));
-  
-  
-  
-  
+
+
   if (prendaValor === "") {
-    Swal.fire({
-      position: 'top-end',
-      icon: 'error',
-      title: 'Debes completar la prenda ',
-      showConfirmButton: false,
-      timer: 1500
-
-    })
+    Swal.fire(
+      'No agregaste la PRENDA deseada',
+      'Intenta de nuevo',
+      'error'
+    )
   }
+
+  
   if (colorValor === "") {
-    Swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      text: 'No agregaste la prenda',
-      showConfirmButton: false,
-      timer: 1500
-
-    })
+    Swal.fire(
+      'No agregaste el COLOR deseado',
+      'Intenta de nuevo',
+      'error'
+    )
   }
-
-
-
   /* promesas */
   const pedirProductos = () => {
     return new Promise((resolve, reject) => {
@@ -87,8 +78,6 @@ function registrarFormulario() {
     detallados = res;
     console.table(detallados)
   })
-
-
 
   fetch("/mocks/prendas.json")
     .then((res) => res.json())

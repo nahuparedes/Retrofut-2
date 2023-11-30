@@ -43,16 +43,20 @@ partes interesadas, garantizar la igualdad de oportunidades de empleo, mejorar l
 
 ## Appendix
 
-ESTA PAGINA (STOCK.HTML)ESTA DISEÑADA PARA LA GENTE ENCARGADA DE LA LOGISTICA DE LA EMPRESA, YA QUE ESTA CARGA LOS DATOS DE LAS PRENDAS SOLICITADAS PARA LOS PROVEEDORES Y LOS GUARDA EN EL STORAGE. SU USO SERIA, COMPLETAS LOS DATOS SOLICITADOS DE LAS CUALIDADES DE LAS PRENDAS ESPECIFICANDO (COLOR, TALLE, CALIDAD, Y MARCA) LUEGO DE COMPLETAR ESTO, TOCAMOS EL BOTON "ENVIAR" Y SU PEDIDO YA ESTARA LISTO
-
+ESTA PAGINA (STOCK.HTML)ESTA DISEÑADA PARA LA GENTE ENCARGADA DE LA LOGISTICA DE LA EMPRESA, YA QUE ESTA CARGA LOS DATOS DE LAS PRENDAS SOLICITADAS PARA LOS PROVEEDORES Y LOS GUARDA EN EL STORAGE. SU USO SERIA, COMPLETAR EL ESPACIO SOLICITADO DE "PRENDA" AGREGANDO EJ:SHORT, EN CASO DE NO SER COMPLETADA A LA HORA DE ENVIARLO, SALTARA UNA ALERTA DE "COMPLETAR LA PRENDA".
+LUEGO ELEGIMOS LA MARCA, QUE ES UN CAMPO OBLIGATORIO A LLENAR.
+SEGUIMOS CON EL COLOR, QUE SI NO LO LLENAMOS AL ENVIAR SALTA UNA ALERTA DE "COMPLETAR EL COLOR"
+EL TALLE ES UN CAMPO OBLIGATORIO,
+LA CALIDAD TAMBIEN ES UN CAMPO OBLIGATORIO, QUE SE REFIERE A LA CALIDAD DE LA PRENDA SI ES PREMIUM(MEJOR CALIDAD) O SEMI-PREMIUM (MENOS CALIDAD). UNA VEZ CON TODOS LOS CAMPOS COMPLETADOS, APARECERA UNA ALERTA QUE DIRA "FELICITACIONES AGREGASTE UNA PRENDA"
 ## Feedback
 
-Este proyecto es un simulacro de pedidos de stock de la empresa 
+Este proyecto es un simulacro de pedidos de stock de la empresa, para ello debemos entrar a la pagina stock.html, que alli pedimos las prendas que solicitamos, en las otras paginas (como: camisetas.html,champions.html,libertadores.html,liga.htnl, medias.html, short.html, mundial.html, seleccion.html) son paginas con imagenes ilustrativas con algunos de nuestros productos, con los precios, pero solamente para ver las cosas que hay disponibles.
+en contacto.html podran contactarse con nosotros para cualquier duda que necesites que te respondamos.  
 
 
 ## Used By
 
-Este proyecto puede ser usado por los responsables del sector de compras, y encargados de la contabilidad.
+Este proyecto puede ser usado por los responsables del sector de compras, y encargados de la contabilidad(stock.html).
 
 
 
