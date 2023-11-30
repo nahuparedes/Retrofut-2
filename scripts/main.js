@@ -11,16 +11,7 @@ let calidad = [];
 
 let submit = document.getElementById("enviar");
 submit.addEventListener('click', registrarFormulario)
-if (submit !== "") {
 
-  Swal.fire({
-    icon: 'success',
-    title: 'felicitaciones',
-    text: 'agregaste una prenda al stock',
-    showConfirmButton: false,
-    timer: 1500
-  })
-}
 
 function registrarFormulario() {
   let prendaValor = document.getElementById("prenda").value;
@@ -76,7 +67,7 @@ function registrarFormulario() {
   let detallados = [];
   pedirProductos().then((res) => {
     detallados = res;
-    console.table(detallados)
+    
   })
 
   fetch("/mocks/prendas.json")
@@ -85,3 +76,15 @@ function registrarFormulario() {
 
     })
 } 
+ submit.addEventListener('click', (succes)=>{succes.preventDefault
+  if (submit !== "") {
+
+    Swal.fire({
+      icon: 'success',
+      title: 'felicitaciones',
+      text: 'agregaste una prenda al stock',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
+}) 
